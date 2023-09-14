@@ -83,7 +83,8 @@
 }
 
 .Navbar_navContentWrapper__2Yibc.Navbar_opened__Am8rg {
-    grid-template-rows: 1fr
+    grid-template-rows: 1fr;
+    background: #262626;
 }
 
 .Navbar_navContent__cyZgx {
@@ -98,8 +99,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: -moz-fit-content;
-    width: fit-content
+    width: fit-content;
 }
 
 .Navbar_navHeaderToggle__ux4sI.Navbar_opened__Am8rg {
@@ -112,7 +112,7 @@
     height: .5rem;
     border-radius: 1rem;
     background-color: #9c9c9c;
-    transition: transform .5s
+    transition: transform .5s, opacity 0.3s;
 }
 
 .Navbar_bar1__DZ1Rv {
@@ -374,3 +374,18 @@
         justify-self: center
     }
 }
+.Navbar_bar1__DZ1Rv.active {
+    transform: translateY(150%) rotate(135deg);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.Navbar_bar2__f1IME.active {
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.Navbar_bar3__DVECR.active {
+    transform: translateY(-50%) rotate(-135deg);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
