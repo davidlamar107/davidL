@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab&display=swap");* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    --viewBackground: #444;
+    --menuBorder: #444;
+    --eventBackground: #232323;
+    --eventPrimaryText: #fff;
+    --eventTertiaryText: #00cdff;
+    --eventSecondaryText: #bebcbc;
+    --eventActionBtnsInactive: #444;
+    --eventActionBtnsActive: 0;
+    --eventActionBarGradient1: #1c75bc;
+    --eventActionBarGradient2: #00cdff;
+    --eventHighRisk: #e55440;
+    --onsaleEventBackground: #444;
+    --onsalePrimaryText: #fff;
+    --onsaleSecondaryText: #bebcbc;
+    --onsaleEventActionBtnsInactive: #232323;
+    --onsaleEventActionBtnsActive: ;
+    --onsaleEventListBackground: #232323;
+    --onsaleGlow: #febd1d;
+    --onsaleBarBackgroundActive: #444;
+    --onsaleBarBackgroundInactive: #232323;
+    --onsaleSaleTimeBackgroundInactive: #444;
+    --onsaleSaleTimeBackgroundActive: #232323;
+    --ticketSetBackground: #232323;
+    --ticketSetPrimaryText: #fff;
+    --ticketSetSecondaryText: #bebcbc;
+    --ticketSetTertiaryText: #00cdff;
+    --ticketSetLikeInactive: #232323;
+    --ticketSetBidBackground: #444;
+    --ticketSetBidHover: #575757;
+    --ticketSetExpired: #444;
+    --ticketSetSold: #e55440;
+    --ticketSetPending: #febd1d;
+    --ticketSetPurchased: #89d99d;
+    --ticketSetTimerExpired: #444;
+    --ticketSetTimerHigh: #89d99d;
+    --ticketSetTimerMedium: #febd1d;
+    --TicketSetTimerLow: #e55440;
+    --ticketSetBarNormal: #bebcbc;
+    --ticketSetBarPopular: #00cdff;
+    --ticketSetBuyerParameter: #89d99d;
+    --ticektSetDisliked: #e55440;
+    --ticketSetBarDate: #232323;
+    --ticketSetActionBtn: #232323;
+    --dialog-bg: #232323;
+    --dialog-text: #fff;
+    --dialog--venue-text: #00cdff;
+    --dialog--submision-detail-bg: #444;
+    --dialog--dollar-sign-text: #b3b3b3;
+    --dialog--warning-text: #e55440;
+    --dialog--timer-icon-default: #e55440;
+    --dialog--bid-btn-bg: #444;
+    --dialog--bid-btn-text: #b3b3b3;
+    --dialog--bid-btn-active-bg: #00cdff;
+    --dialog--bid-btn-active-text: #232323;
+    --dialog--bid-btn-disabled-bg: #575757;
+    --dialog--bid-btn-disabled-text: #fff;
+    --dialog--bid-btn-psuedo-disabled-bg: #bebcbcb2;
+    --sideMenuBackground: #232323;
+    --sideMenuPrimaryText: #fff;
+    --sideMenuSecondaryText: #444;
+    --sideMenuOppositeText: #232323;
+    --searchMenuPrimaryText: #fff;
+    --searchMenuInputText: #fff;
+    --searchMenuInputBackground: #444;
+    --searchMenuEventRequest: #00cdff;
+    --searchMenuClear: #e55440;
+    --searchMenuButtonBackground: #444;
+    --searchMenuButtonBorderHover: #febd1d;
+    --buyerOutline: #febd1d;
+    --buyerText: #fff;
+    --sellerRatingStars: #febd1d;
+    --feedSettingsText: #fff;
+    --feedSettingsSliderInner: #fff;
+    --feedSettingsSliderOuterInactive: #444;
+    --feedSettingsSliderInnerActive: #febd1d;
+    --feedSettingsThemeSliderInner: #fff;
+    --feedSettingsThemeSliderOuter: #444;
+    --feedSettingsRowSizeBackgroundActive: #febd1d;
+    --feedSettingsInputBackground: #444;
+    --quickLinksText: #fff;
+    --quickLinksLogOutBackground: #444;
+    --quickLinksHover: #febd1d;
+    --smallNavButtonsInactive: #444;
+    --smallNavButtonsActive: #fff;
+    --popUpBackground: #232323;
+    --popUpOnsaleGradient1: #febd1d;
+    --popUpOnsaleGradient2: #d78d24;
+    --popUpGradient1: #1c75bc;
+    --popUpGradient2: #00cdff;
+    --popUpPrimaryText: #fff;
+    --popUpSecondaryTextOnsale: #febd1d;
+    --popUpSecondaryText: #00cdff;
+    --popUpNormalGlow: rgba(0,205,255,.4);
+    --popUpOnsaleGlow: rgba(254,189,29,.9);
+    --popUpInput: #444;
+    --popUpBtn: #444;
+    --eventRequestBackground: #444;
+    --eventRequestInputBackground: #232323;
+    --eventRequestInputValid: #89d99d;
+    --eventRequestInputInvalid: #e55440;
+    --eventRequestCancel: #e55440;
+    --eventRequestRequest: #89d99d;
+    --eventRequestText: #fff;
+    --eventParameterInputLabel: #fff;
+    --eventParameterInputBackground: #444;
+    --eventParameterInput: #fff;
+    --eventParameterCreateButton: #fff;
+    --eventParameterCreateButtonBackground: #444;
+    --eventParameterCreatedActiveBorder: #89d99d;
+    --eventParameterCreatedActive: #fff;
+    --eventParameterCreatedInactive: #666;
+    --eventParameterCreatedBackgroundInactive: #2e2e2e;
+    --eventParameterCreatedBackgroundActive: #444;
+    --eventParameterCreatedDeleteHover: #e55440;
+    --eventParameterBountyStroke: #232323;
+    --eventParameterBountyFill: #444;
+    --popularSectionBackground: #444;
+    --popularSectionActiveBorder: #00cdff;
+    --alertBackground: #444;
+    --alertText: #fff;
+    --watchingAlertBackground: #444;
+    --watchingAlertText: #fff;
+    --watchingAlertNo: #e55440;
+    --watchingAlertYes: #89d99d;
+    --buyerInstructionCheck: #89d99d;
+    --bountyPrimaryText: #fff;
+    --bountySecondaryText: #00cdff;
+    --bountyTertiaryColor: #444;
+    --bountyLowQuantity: #e55440;
+    --bountyMediumQuantity: #febd1d;
+    --bountyHighQuantity: #89d99d;
+    --bountyDetailsBackground: rgba(35,35,35,.95);
+    --bountyDetailsContainerBackground: #333
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: none
+}
+
+body {
+    background-color: #232323;
+    min-width: 32rem;
+    color: #fff
+}
+
+a,button,i {
+    cursor: pointer
+}
+
+a {
+    text-decoration: none
+}
+
+:root {
+    font-size: 62.5%;
+    --activeblue: #00cdff;
+    --activeGold: #febd1d;
+    --ufblack: #232323;
+    --ufblue: #00cdff;
+    --ufgold: #febd1d;
+    --ufgray: #7f7f7f;
+    --validGreen: #89d99d;
+    --invalidRed: #e55440;
+    --shadow20: hsla(0,2%,61%,.3)
+}
